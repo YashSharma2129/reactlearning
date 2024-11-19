@@ -1,23 +1,66 @@
+/* Root container */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f7f7f7; /* Light background for the app */
+  font-family: "Arial", sans-serif;
 }
 
+/* Styling for headings */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Button styles */
+button {
+  background-color: #646cff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: #5a55d3;
+  transform: translateY(-3px);
+}
+
+button:active {
+  background-color: #4c47b3;
+  transform: translateY(1px);
+}
+
+/* Logo container */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Animation for logo spinning */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,10 +76,38 @@
   }
 }
 
+/* Card container for any future components or sections */
 .card {
   padding: 2em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
 }
 
 .read-the-docs {
   color: #888;
+  font-size: 0.9rem;
+}
+
+/* Ensuring buttons are aligned and styled correctly */
+button {
+  width: 150px;
+  margin-top: 1rem;
+}
+
+button:first-of-type {
+  background-color: #4caf50;
+}
+
+button:first-of-type:hover {
+  background-color: #45a049;
+}
+
+button:last-of-type {
+  background-color: #f44336;
+}
+
+button:last-of-type:hover {
+  background-color: #e53935;
 }

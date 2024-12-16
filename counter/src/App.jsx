@@ -7,11 +7,11 @@ function App() {
   let [counter, setCounter] = useState(15);
 
   const addValue = () => {
-    setCounter(prevCounter => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
   };
 
   const removeValue = () => {
-    setCounter(prevCounter => prevCounter - 1);
+    setCounter((prevCounter) => prevCounter - 1);
   };
 
   return (
@@ -24,6 +24,7 @@ function App() {
       <button onClick={addValue}>Add Value</button>
       <br />
       <button onClick={removeValue}>Remove Value</button>
+      <button onClick={removeValue}></button>
     </div>
   );
 }

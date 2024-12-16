@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #3e70a8;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+        }
+
+        .card h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .card p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .card button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #28a745;
+            transform: scale(1.1);
+        }
+
+        .additional-content {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .additional-content ul {
+            list-style: disc;
+            margin: 10px 0 0 20px;
+            color: #555;
+        }
+
+        .additional-content ul li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Centered Heading</h1>
+        <p>This is a centered paragraph within a card layout.</p>
+        <button>Click Me</button>
+        <div class="additional-content">
+            <h2>Features:</h2>
+            <ul>
+                <li>Responsive design for all devices</li>
+                <li>Interactive button with hover effects</li>
+                <li>Modern and clean layout</li>
+                <li>Card with shadow for better visibility</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

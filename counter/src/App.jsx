@@ -25,6 +25,8 @@ function App() {
       <br />
       <button onClick={removeValue}>Remove Value</button>
       <button onClick={removeValue}></button>
+      <button onClick={removeValue}></button>
+      <button>hi</button>
     </div>
   );
 }

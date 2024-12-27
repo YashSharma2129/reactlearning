@@ -39,7 +39,7 @@ function App() {
       </main>
 
       <footer className="mt-8 text-gray-500 text-sm">
-        <p>Powered by Vite + React + TailwindCSS</p>
+        <p>Powered jje by Vite + React + TailwindCSS</p>
       </footer>
     </div>
   );

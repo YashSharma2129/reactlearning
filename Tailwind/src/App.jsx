@@ -18,7 +18,7 @@ function App() {
           <img src={reactLogo} className="w-12 h-12" alt="React logo" />
         </div>
         <h1 className="text-3xl font-bold text-green-500">TailwindCSS Learn</h1>
-        <p className="text-gray-600">
+        <p className="text-red-600 ">
           Start building with React and TailwindCSS!
         </p>
       </header>
